@@ -1,7 +1,9 @@
-# vue-init
-
-> vue demo
-
+# 项目截图
+### 学生端
+![](https://i.loli.net/2021/04/28/xlrKjXaUhmdveqz.png)
+![](https://i.loli.net/2021/04/28/bx2IGkmY4wjBvhu.png)
+### 教师端
+![](https://i.loli.net/2021/04/28/XpJyueOrRbFdhkU.png)
 ## Build Setup
 
 ``` bash
@@ -19,3 +21,4 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
