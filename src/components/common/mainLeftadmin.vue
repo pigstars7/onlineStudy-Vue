@@ -33,6 +33,7 @@ import store from '@/vuex/storeadmin'
 import {mapState} from 'vuex'
 export default {
   name: "mainLeftadmin",
+  store,
   data() {
     return {
       
@@ -51,10 +52,9 @@ export default {
     },
     //点击标题传递参数给navigator组件
     handleTitle(index) {
-      this.bus.$emit('sendIndex',index)
+      // this.bus.$emit('sendIndex',index)
     },
-  },
-  store
+  }
 }
 </script>
 

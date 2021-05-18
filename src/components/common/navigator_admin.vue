@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <el-breadcrumb separator-class="el-icon-arrow-right">
-      <el-breadcrumb-item class="title">{{active.title}}</el-breadcrumb-item>
+      <!-- <el-breadcrumb-item class="title">{{active.title}}</el-breadcrumb-item> -->
       <el-breadcrumb-item v-if="active.item1 != null">{{active.item1}}</el-breadcrumb-item>
       <el-breadcrumb-item v-if="active.item2 != null">{{active.item2}}</el-breadcrumb-item>
       <el-breadcrumb-item v-if="active.item3 != null">{{active.item3}}</el-breadcrumb-item>
@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import store from '@/vuex/store'
 import storeadmin from '@/vuex/storeadmin'
 import {mapState} from 'vuex'
 export default {
@@ -24,8 +23,10 @@ export default {
   methods: {
     getIndex() {
       this.bus.$on('sendIndex',(data)=>{
+        console.log(data+"----");
         this.index1 = data
         this.active = this.menu[data-1]
+        console.log(active+"----");
         // console.log(JSON.stringify(this.active)+'----')
       })
     }
@@ -34,9 +35,8 @@ export default {
     this.getIndex()
   },
   beforeDestroy() {
-     this.bus.$off('sendIndex') //销毁
+    this.bus.$off('sendIndex') //销毁
   },
-  store,
   storeadmin
 }
 </script>

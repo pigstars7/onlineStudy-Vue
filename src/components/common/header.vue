@@ -49,6 +49,10 @@ export default {
     showSetting() {
       this.login_flag = !this.login_flag
     },
+    index() {
+     this.$cookies.get('role') == 1 ? this.$router.push({path:'/index'}) : this.$router.push({path:'/admin'});
+    
+    },
     //左侧栏放大缩小
     ...mapMutations(["toggle"]),
     getUserInfo() { //获取用户信息

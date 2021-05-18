@@ -72,6 +72,10 @@ export default new Router({
       meta:{requireAuth:true,},
       children: [
         {
+          path: '/', //首页默认路由
+          component: () => import('@/components/common/hello_admin')
+        },
+        {
           path: '/teacherManage',
           component: () => import('@/components/admin/tacherManage')
         },

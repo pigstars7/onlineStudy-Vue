@@ -17,7 +17,7 @@
 <script>
 import header from '@/components/common/header'
 import mainLeft1 from '@/components/common/mainLeftadmin'
-import navigator from '@/components/common/navigator'
+import navigator from '@/components/common/navigator_admin'
 export default {
   components:{
     header1: header,

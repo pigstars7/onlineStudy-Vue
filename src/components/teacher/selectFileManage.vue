@@ -118,7 +118,7 @@
               v-model="form.stuClass"
               placeholder="所属班级"
               @focus="getClassName()"
-              @change="changeClass(form.classId)"
+              @change="changeClass(form.stuClass)"
             >
               <el-option
                 v-for="item in data"
@@ -198,7 +198,7 @@
               v-model="form1.stuClass"
               placeholder="所属班级"
               @focus="getClassName()"
-              @change="changeClass1(form1.classId)"
+              @change="changeClass1(form1.stuClass)"
             >
               <el-option
                 v-for="item in data"
@@ -563,12 +563,13 @@ export default {
       this.$axios(`/api/stuclass/getClassName`).then((res) => {
         if (res.data.code == 0) {
           this.data = res.data.data.className;
+          
         }
       });
     },
     changeClass(classId) {
       this.form.classId = classId;
-      console.log(this.form.classId);
+      console.log(this.form.classId+"000000");
     },
      changeClass1(classId) {
       this.form1.classId = classId;
