@@ -1,9 +1,9 @@
 # 项目截图
 ### 学生端
-![](https://i.loli.net/2021/04/28/xlrKjXaUhmdveqz.png)
-![](https://i.loli.net/2021/04/28/bx2IGkmY4wjBvhu.png)
+![20210428144334.png](https://i.loli.net/2021/04/28/xlrKjXaUhmdveqz.png)
+![20210428144409.png](https://i.loli.net/2021/04/28/bx2IGkmY4wjBvhu.png)
 ### 教师端
-![](https://i.loli.net/2021/04/28/XpJyueOrRbFdhkU.png)
+![20210428144613.png](https://i.loli.net/2021/04/28/XpJyueOrRbFdhkU.png)
 ## Build Setup
 
 ``` bash
