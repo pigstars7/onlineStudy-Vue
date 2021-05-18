@@ -1,9 +1,10 @@
 # 项目截图
+### 登录界面
+[![ghcQRe.md.png](https://z3.ax1x.com/2021/05/18/ghcQRe.md.png)](https://imgtu.com/i/ghcQRe)
 ### 学生端
-![](https://i.loli.net/2021/04/28/xlrKjXaUhmdveqz.png)
-![](https://i.loli.net/2021/04/28/bx2IGkmY4wjBvhu.png)
+[![ghc5QJ.md.png](https://z3.ax1x.com/2021/05/18/ghc5QJ.md.png)](https://imgtu.com/i/ghc5QJ)
 ### 教师端
-![](https://i.loli.net/2021/04/28/XpJyueOrRbFdhkU.png)
+[![ghcfWF.md.png](https://z3.ax1x.com/2021/05/18/ghcfWF.md.png)](https://imgtu.com/i/ghcfWF)
 ## Build Setup
 
 ``` bash
